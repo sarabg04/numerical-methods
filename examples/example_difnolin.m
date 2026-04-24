@@ -1,0 +1,11 @@
+f  = @(x,y,z) -y;        
+fy = @(x,y,z) -1 + 0*x;  
+fz = @(x,y,z) 0*x;       
+a = 0;
+b = 1;
+alpha = 0;
+beta  = 0;
+N = 50;        % número de subintervalos
+tol = 1e-6;    % tolerancia
+maxiter = 50;  % iteraciones máximas
+[X, Y, iter, incr] = difnolin(f, fy, fz, a, b, alpha, beta, N, tol, maxiter);
