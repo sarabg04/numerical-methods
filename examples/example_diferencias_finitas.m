@@ -1,0 +1,10 @@
+p = @(x) 0;
+q = @(x) -1;
+r = @(x) sin(x);
+a = 0;
+b = pi;
+alfa = 0;
+beta = 0;
+N = 10;
+y = diferencias_finitas(p, q, r, a, b, alfa, beta, N);
+disp(y);
