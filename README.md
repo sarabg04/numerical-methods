@@ -15,3 +15,5 @@ b = [1; 2];
 - Contraction analysis using distance between iterates
 ###linear systems
 - LU decomposition (Crout) for tridiagonal systems
+### Differential Equations
+- Finite difference method for second-order boundary value problems
