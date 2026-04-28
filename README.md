@@ -40,16 +40,13 @@ Methods for solving systems of equations ( Ax = b ):
 * **House_Holder_QR_simetricas.m**
   QR factorization using Householder reflections.
 
----
 
-## 🔹 Eigenvalue Methods
+## Eigenvalue Methods
 
 * **potenciainversa.m**
-  Inverse Power Method for computing eigenvalues and eigenvectors.
+  Inverse Power Method for computing eigenvalues and eigenvectors
 
----
-
-## 🔹 Nonlinear Systems
+## Nonlinear Systems
 
 Methods for solving ( F(x) = 0 ):
 
@@ -65,16 +62,12 @@ Methods for solving ( F(x) = 0 ):
 * **Stf_sistemas_vpa.m**
   Symbolic-numeric method using variable precision arithmetic (VPA).
 
----
-
-## 🔹 Differential Equations
+##  Differential Equations
 
 * **difnolin.m**
   Finite difference method for nonlinear boundary value problems.
 
----
-
-## 🔹 Numerical Integration
+##  Numerical Integration
 
 * **GaussLegendre.m**
   Gaussian quadrature for double integrals.
@@ -88,33 +81,14 @@ Methods for solving ( F(x) = 0 ):
 * **MonteCarlogeneral.m**
   Monte Carlo integration with geometric acceptance-rejection.
 
----
-
-## 📌 Features
-
-* Clean and modular MATLAB implementations
-* Convergence tracking (residuals, increments, ACOC)
-* Support for advanced methods (high-order, multipoint)
-* Educational and reusable code structure
-
----
-
-## ▶️ Examples
+## Examples
 
 Example scripts are available in the `examples/` folder to demonstrate usage:
 
 * `example_difnolin.m`
 * `example_GaussLegendre.m`
 
-Run them directly in MATLAB:
-
-```matlab
-run examples/example_GaussLegendre.m
-```
-
----
-
-## ⚠️ Notes
+## Notes
 
 * Some methods require auxiliary functions such as:
 
@@ -127,34 +101,3 @@ run examples/example_GaussLegendre.m
 
   * Gradient methods → symmetric positive definite matrices
   * Nonlinear solvers → good initial guess required
-
----
-
-## 🚀 Purpose
-
-This repository is designed as:
-
-* 📚 Academic support for numerical analysis courses
-* 💼 Technical portfolio for computational mathematics
-* 🔬 Foundation for further research or extensions
-
----
-
-## 📈 Future Improvements
-
-* Performance optimization (vectorization)
-* Error analysis and benchmarking
-* Visualization tools (convergence plots)
-* Extended documentation
-
----
-
-## 👤 Author
-
-Developed as part of a numerical methods portfolio in MATLAB.
-
----
-
-## ⭐ If you find this useful
-
-Feel free to star ⭐ the repository or use it as a reference for your own projects.
